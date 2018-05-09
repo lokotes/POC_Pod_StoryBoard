@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gJs-qH-YAw">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LifeTasks" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CER-ay-Zhx">
+                                <rect key="frame" x="0.0" y="64" width="320" height="120"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LifeTask" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTx-pH-EGW">
+                                        <rect key="frame" x="116.5" y="8" width="87" height="26.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                                        <color key="textColor" red="0.40840631719999998" green="0.4231043458" blue="0.73509174590000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rutina de hábitos positivos que cambian su vida" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFz-mZ-5vn">
+                                        <rect key="frame" x="20" y="49.5" width="280" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.40840631719999998" green="0.4231043458" blue="0.73509174590000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="KFz-mZ-5vn" firstAttribute="top" secondItem="yTx-pH-EGW" secondAttribute="bottom" constant="15" id="8DO-Ua-fNf"/>
+                                    <constraint firstItem="yTx-pH-EGW" firstAttribute="centerX" secondItem="CER-ay-Zhx" secondAttribute="centerX" id="9pd-gf-TIR"/>
+                                    <constraint firstAttribute="height" constant="120" id="KSV-Zq-U22"/>
+                                    <constraint firstItem="KFz-mZ-5vn" firstAttribute="leading" secondItem="CER-ay-Zhx" secondAttribute="leading" constant="20" id="Qmn-af-qkp"/>
+                                    <constraint firstItem="yTx-pH-EGW" firstAttribute="top" secondItem="CER-ay-Zhx" secondAttribute="top" constant="8" id="SBY-34-wP5"/>
+                                    <constraint firstAttribute="trailing" secondItem="KFz-mZ-5vn" secondAttribute="trailing" constant="20" id="btu-dz-C1g"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RAK-DA-6r1">
+                                <rect key="frame" x="0.0" y="184" width="320" height="125"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vida-saludable-300x300" translatesAutoresizingMaskIntoConstraints="NO" id="5TY-Hi-ocj">
+                                        <rect key="frame" x="0.0" y="0.0" width="125" height="125"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="125" id="P0a-fy-p7C"/>
+                                            <constraint firstAttribute="width" constant="125" id="z6N-IM-idI"/>
+                                        </constraints>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y0f-bV-Z9M">
+                                        <rect key="frame" x="125" y="0.0" width="195" height="125"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Planifique sus hábitos con una interfaz fácil de usar" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e7B-41-EWH">
+                                                <rect key="frame" x="10" y="53" width="180" height="29"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <color key="textColor" red="0.49250780562147661" green="0.51068164380689962" blue="0.902303392768528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tareas del Dia" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XdN-ai-9cY">
+                                                <rect key="frame" x="10" y="15" width="180" height="21.5"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                                <color key="textColor" red="0.45287300675421571" green="0.46958429670608032" blue="0.82969009998121823" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="XdN-ai-9cY" secondAttribute="trailing" constant="5" id="3Cc-bO-Je2"/>
+                                            <constraint firstItem="e7B-41-EWH" firstAttribute="leading" secondItem="y0f-bV-Z9M" secondAttribute="leading" constant="10" id="6VN-7c-5zh"/>
+                                            <constraint firstAttribute="trailing" secondItem="e7B-41-EWH" secondAttribute="trailing" constant="5" id="8bc-W7-iD5"/>
+                                            <constraint firstItem="XdN-ai-9cY" firstAttribute="leading" secondItem="y0f-bV-Z9M" secondAttribute="leading" constant="10" id="9Ob-be-Mgv"/>
+                                            <constraint firstItem="e7B-41-EWH" firstAttribute="top" secondItem="XdN-ai-9cY" secondAttribute="bottom" constant="16.5" id="IdC-l5-Y50"/>
+                                            <constraint firstItem="XdN-ai-9cY" firstAttribute="top" secondItem="y0f-bV-Z9M" secondAttribute="top" constant="15" id="YaJ-72-qaQ"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="y0f-bV-Z9M" secondAttribute="bottom" id="PJt-9h-flY"/>
+                                    <constraint firstItem="5TY-Hi-ocj" firstAttribute="leading" secondItem="RAK-DA-6r1" secondAttribute="leading" id="Rzh-zY-H9W"/>
+                                    <constraint firstAttribute="trailing" secondItem="y0f-bV-Z9M" secondAttribute="trailing" id="YiW-vc-eRJ"/>
+                                    <constraint firstAttribute="height" constant="125" id="ged-h1-cFD"/>
+                                    <constraint firstItem="y0f-bV-Z9M" firstAttribute="top" secondItem="RAK-DA-6r1" secondAttribute="top" id="h4o-iZ-bEg"/>
+                                    <constraint firstItem="y0f-bV-Z9M" firstAttribute="leading" secondItem="5TY-Hi-ocj" secondAttribute="trailing" id="nMe-pc-W5p"/>
+                                    <constraint firstItem="5TY-Hi-ocj" firstAttribute="top" secondItem="RAK-DA-6r1" secondAttribute="top" id="vba-pT-Moy"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="CER-ay-Zhx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ls9-7G-cYh"/>
+                            <constraint firstItem="CER-ay-Zhx" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Rrs-DA-fXA"/>
+                            <constraint firstItem="RAK-DA-6r1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ShG-Rs-aFU"/>
+                            <constraint firstItem="RAK-DA-6r1" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="lNn-Qa-dQK"/>
+                            <constraint firstItem="CER-ay-Zhx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="qbx-0T-vvU"/>
+                            <constraint firstItem="RAK-DA-6r1" firstAttribute="top" secondItem="CER-ay-Zhx" secondAttribute="bottom" id="v28-Mq-DLf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DWm-OA-fTx"/>
+                    <connections>
+                        <outlet property="viewTasksDay" destination="RAK-DA-6r1" id="pr8-Lu-uqv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1113.75" y="117.25352112676056"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="D8D-8X-3Ab">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gJs-qH-YAw" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="U49-ed-QuN">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="maG-O6-9n4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8oz-Sf-OB9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116.25" y="117.25352112676056"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="vida-saludable-300x300" width="300" height="300"/>
+    </resources>
+</document>

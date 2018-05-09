@@ -1,0 +1,6 @@
+framework module AppTasksDay {
+  umbrella header "AppTasksDay-umbrella.h"
+
+  export *
+  module * { export * }
+}

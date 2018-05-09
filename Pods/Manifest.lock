@@ -1,0 +1,27 @@
+PODS:
+  - AppTasksDay (1.0.0):
+    - RealmSwift
+  - Realm (3.1.0):
+    - Realm/Headers (= 3.1.0)
+  - Realm/Headers (3.1.0)
+  - RealmSwift (3.1.0):
+    - Realm (= 3.1.0)
+
+DEPENDENCIES:
+  - AppTasksDay
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Realm
+    - RealmSwift
+  https://github.com/lokotes/AppTasksDayPodSpec.git:
+    - AppTasksDay
+
+SPEC CHECKSUMS:
+  AppTasksDay: 7675101f52a23fe2885a34a7c6117924d237ba67
+  Realm: 09513d7c054678d65cd02ce09871f805b0d758ac
+  RealmSwift: e868fee9b10e5490ad94b6b6ecd9027944da1824
+
+PODFILE CHECKSUM: cab8fbf343e650518862c0aae2f17426c6e62c30
+
+COCOAPODS: 1.5.0
